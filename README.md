@@ -62,6 +62,7 @@ Instruções para desenvolvimento dos exercícios:
 11. **Busca Binária**  
     Implemente busca binária em um vetor ordenado.
 
+
 12. **Verificador de Palíndromo**  
     Dada uma string (array de `char`), diga se ela é um palíndromo (ex: “arara”, “radar”).
 
