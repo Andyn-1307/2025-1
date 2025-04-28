@@ -19,6 +19,13 @@ int main (){
             scanf("%d", &matrizB[i][j]);
         }
     }
+
+    for (i = 0; i < 3; i++){
+        for (j = 0; j < 3; j++){
+            matrizSoma[i][j] = matrizA[i][j]+matrizB[i][j];
+            // A matrizSoma ira armazenar a soma dos elementos correspondentes das matrizes A e B.
+        }
+    }
     // A matrizSoma ira mostrar a soma das matrizes A e B.
     printf("Soma das matrizes A e B:\n");
     for (i = 0; i < 3; i++){
