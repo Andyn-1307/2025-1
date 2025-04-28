@@ -24,9 +24,9 @@ int main() {
     scanf("%s", palavra);
 
     if (ehPalindromo(palavra)) {
-        printf("\"%s\" é um palíndromo!\n", palavra);
+        printf("\"%s\" eh um palindromo!\n", palavra);
     } else {
-        printf("\"%s\" não é um palíndromo.\n", palavra);
+        printf("\"%s\" nao e um palindromo.\n", palavra);
     }
 
     return 0;
