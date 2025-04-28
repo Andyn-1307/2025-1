@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 
+// Função para verificar se um número é primo.
 bool ehPrimo(int n) {
     if (n < 2) return false;
     int i;
@@ -10,7 +11,8 @@ bool ehPrimo(int n) {
     }
     return true;
 }
-
+// Função principal.
+// Ela lê dois números inteiros e imprime todos os números primos entre eles.
 int main() {
     int n1, n2;
     printf("Digite o primeiro numero inteiro: ");

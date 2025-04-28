@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Função para inverter um número inteiro (espero que seja numero inteiro mesmo)
+// Função para inverter um número inteiro.
 int invertNumero(int n) {
     int invertido = 0;
 
@@ -12,6 +12,8 @@ int invertNumero(int n) {
 
     return invertido;
 }
+// Função principal.
+// Ela lê um número inteiro e imprime o número invertido.
 int main () {
     int n;
     printf("Digite um numero inteiro: ");
